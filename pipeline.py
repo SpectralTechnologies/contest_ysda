@@ -6,9 +6,9 @@ from sklearn.metrics import r2_score
 
 from solution import get_predict
 
-NUM_TRAIN_FILES = 128
-NUM_TEST_FILES = 56
-NUM_PUBLIC_TEST_FILES = 28
+NUM_TRAIN_FILES = 71
+NUM_TEST_FILES = 38
+NUM_PUBLIC_TEST_FILES = 19
 
 
 def main():

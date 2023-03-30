@@ -6,9 +6,10 @@ from sklearn.metrics import r2_score
 
 def main():
     data_dir = 'data_by_days'
-    NUM_TRAIN_FILES = 128
+    NUM_TRAIN_FILES = 71
 
-    df = pd.concat([pd.read_feather(f'{data_dir}/train_{i}.feather') for i in range(NUM_TRAIN_FILES)])
+    df = pd.concat([pd.read_feather(f'{data_dir}/train_{i}.feather')for i in range(NUM_TRAIN_FILES)])
+    df.reset_index(drop=True, inplace=True)
 
     y_true = df['target']
 
