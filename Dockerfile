@@ -22,3 +22,4 @@ RUN python3 -m pip install --no-cache lightgbm==3.3.5
 RUN python3 -m pip install --no-cache numba==0.56.4
 RUN python3 -m pip install --no-cache pyarrow==11.0.0
 RUN python3 -m pip install --no-cache torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
